@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Righteous&display=swap');
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/wave.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh !important;
+    background-position: bottom;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #003035;
+    font-family: 'Righteous', cursive;
+}
+p, label, input, button, a, #swal2-content {
+    color: #003035;
+    font-family: 'Raleway', sans-serif;
+}
+form * {
+    display: block;
+    margin: 8px 0;
+}
+label, input {
+    font-size: 1rem;
+}
+input, .btn {
+    padding: 8px 16px;
+}
+input:focus {
+    border: 1px solid #077187;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.btn {
+    border: none;
+}
+.btn-primary {
+    color: white;
+    background-color: #74A57F;
+    transition: 0.3s;
+}
+.btn-primary:hover {
+    box-shadow: 0px 2px 5px #002a09;
+}
+.btn-primary:active {
+    transform: scale(1.1);
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.text-emphasis {
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.no-margin {
+    margin: 0 0;
+}
+#result {
+    visibility: hidden;
+}
+#footer {
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    left: 0;
+    text-align: center;
+}

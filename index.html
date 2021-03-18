@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bin2Dec | Leonel Valora</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bin2Dec</h1>
+        <form>
+            <label for="numero_binario">Numero Binario</label>
+            <input placeholder="Ej. 01010101" id="numero_binario">
+            <button class="btn btn-primary mt-2" id="btn_convert">Convertir</button>
+        </form>
+        <div class="mt-2" id="result">
+            <p class="no-margin">Resultado:</p>
+            <p id="result-value" class="text-emphasis no-margin">binary number => decimal number</p>
+        </div>
+    </div>
+    <footer id="footer">
+        <a href="https://github.com/leonel01sys">@leonel01sys</a>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/getDecimalNumber.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
